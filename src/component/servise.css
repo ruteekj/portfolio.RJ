@@ -1,0 +1,15 @@
+.card{
+    border: 7px solid #f5c32c;
+    box-shadow: #f5c32c;
+   border-radius: 20px;
+}
+.experi{
+  padding-top: 100px;
+}
+@media (max-width: 576px) {
+    .card--component{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+ }

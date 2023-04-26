@@ -1,0 +1,20 @@
+.sliode{
+   width: 19rem;
+
+}
+.portfolio{
+    display: flex;
+  align-items: center;
+    justify-content: center;
+   padding-top: 80px;
+    flex-direction: column;
+}
+.portfolio-slider{
+    margin-top: .5rem;
+    width: 20rem;
+    border: 5px solid orange;
+    border-radius: 20px;
+  
+}
+
+

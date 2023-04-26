@@ -1,0 +1,19 @@
+.footer{
+    border-radius: 100% 0% 100% 0% / 75% 100% 0% 25% ;
+    width: 100%;
+    height: 250px;
+    background-color: #f5c32c;
+}
+.icon{
+ align-items: center;
+ justify-content: center;
+ padding-top: 150px;
+}
+.icon i{
+    color: #ad5389;
+    
+}
+.icon i:hover{
+   
+    color:#2f72dd ;
+}

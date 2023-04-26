@@ -1,0 +1,9 @@
+.user{
+    border: 5px solid #f5c32c;
+    padding: 10px 30px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    outline: none;
+    width: 60%;
+}
