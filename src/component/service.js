@@ -1,5 +1,6 @@
 import React from 'react'
 import "./servise.css"
+import Resume from "../img/resume.pdf"
 
 const service = () => {
     return (
@@ -12,7 +13,7 @@ const service = () => {
                             <p>3 month training program at furation tech pvt ltd.(mumbai). worked on real-life project using react js.optimized code for improved functionality and performance
                                 collaborated with team members to ensure project completion within deadline.
                             </p>
-                            <button type="button" className="btn btn-primary mt-4">Download CV</button>
+                           <a href={Resume} target="_blank" rel="noopener noreferrer"> <button type="button" className="btn btn-primary mt-4">Download CV</button></a>
 
                         </div>
                         <div className="col-lg-6 p-3 text-center text-sm-start  ">
