@@ -1,5 +1,6 @@
 import React from 'react'
 import "./servise.css"
+
 import Resume from "../img/resume.pdf"
 
 const service = () => {
@@ -13,9 +14,10 @@ const service = () => {
                             <p>3 month training program at furation tech pvt ltd.(mumbai). worked on real-life project using react js.optimized code for improved functionality and performance
                                 collaborated with team members to ensure project completion within deadline.
                             </p>
-                           <a href={Resume} target="_blank" rel="noopener noreferrer"> <button type="button" className="btn btn-primary mt-4">Download CV</button></a>
+                         
+                            <a href={Resume} target="_blank" rel="noopener noreferrer"> <button type="button" className="btn btn-primary mt-4">Download CV</button></a>
 
-                        </div>
+</div>
                         <div className="col-lg-6 p-3 text-center text-sm-start  ">
                             <div className="card--component d-flex ">
                             <div className="card m-1" style={{width:'18rem',}}>
